@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:gravity="center_horizontal"
+        android:layout_span="3"
+        android:id="@+id/sss"
+        android:text="@string/user_entry"
+        android:textColor="@color/purple_500"
+        android:textSize="80px"
+        android:layout_marginTop="100px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/tableLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:shrinkColumns="*"
+        android:stretchColumns="*"
+        tools:context=".MainActivity">
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:paddingLeft="15px"
+            android:paddingTop="150px"
+            android:paddingRight="50px"
+            android:paddingBottom="15px">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/user_nom"
+                android:layout_span="1"
+                android:textColor="#000"
+                android:textSize="45px"
+                />
+            <TextView
+                android:id="@+id/show_nom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/user_nom"
+                android:layout_span="1"
+                android:textColor="#000"
+                android:textSize="45px"
+                />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:paddingLeft="15px"
+            android:paddingTop="15px"
+            android:paddingRight="50px"
+            android:paddingBottom="0px" >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/user_prenom"
+                android:layout_span="1"
+                android:textColor="#000"
+                android:textSize="45px"
+                />
+            <TextView
+                android:id="@+id/show_prenom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/user_prenom"
+                android:layout_span="1"
+                android:textColor="#000"
+                android:textSize="45px"
+                />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:paddingLeft="15px"
+            android:paddingTop="15px"
+            android:paddingRight="50px"
+            android:paddingBottom="0px"
+            android:textColor="#000"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/user_age"
+                android:layout_span="1"
+                android:textColor="#000"
+                android:textSize="45px"
+                />
+            <TextView
+                android:id="@+id/show_age"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/user_age"
+                android:layout_span="1"
+                android:textColor="#000"
+                android:textSize="45px"
+                />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:paddingLeft="15px"
+            android:paddingTop="15px"
+            android:paddingRight="50px"
+            android:paddingBottom="0px" >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/user_phone"
+                android:layout_span="1"
+                android:textColor="#000"
+                android:textSize="45px"
+                />
+            <TextView
+                android:id="@+id/show_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/user_phone"
+                android:layout_span="1"
+                android:textColor="#000"
+                android:textSize="45px"
+                />
+        </TableRow>
+
+    </TableLayout>
+
+
+</LinearLayout>

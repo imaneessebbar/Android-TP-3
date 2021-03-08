@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:isScrollContainer="true"
+    android:orientation="vertical">
+
+    <TextView
+        android:gravity="center_horizontal"
+        android:layout_span="3"
+        android:text="@string/inf"
+        android:textColor="@color/purple_500"
+        android:textSize="80px"
+        android:layout_marginTop="100px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/id"
+        android:gravity="center_horizontal"
+        android:layout_span="3"
+        android:text=""
+        android:textColor="@color/purple_700"
+        android:textSize="80px"
+        android:layout_marginTop="100px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:shrinkColumns="*"
+        android:stretchColumns="2"
+        tools:context=".MainActivity">
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:paddingLeft="15px"
+            android:paddingTop="150px"
+            android:paddingRight="50px"
+            android:paddingBottom="15px">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/user_nom"
+                android:layout_span="1"
+                android:textColor="#000"
+                android:textSize="45px"
+                />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_span="1"
+                android:text="@string/asterix" />
+
+            <EditText
+                android:id="@+id/user_nom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:hint="@string/user_nom"
+                android:autofillHints="@string/user_nom"
+                android:layout_span="2"
+                />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:paddingLeft="15px"
+            android:paddingTop="15px"
+            android:paddingRight="50px"
+            android:paddingBottom="0px" >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/user_prenom"
+                android:layout_span="1"
+                android:textColor="#000"
+                android:textSize="45px"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_span="1"
+                android:text="@string/asterix" />
+            <EditText
+                android:id="@+id/user_prenom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:hint="@string/user_prenom"
+                android:layout_span="2"
+                />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:paddingLeft="15px"
+            android:paddingTop="15px"
+            android:paddingRight="50px"
+            android:paddingBottom="0px" >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Age"
+                android:layout_span="1"
+                android:textColor="#000"
+                android:textSize="45px"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_span="1"
+                android:text="@string/asterix" />
+            <EditText
+                android:id="@+id/user_age"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:hint="Age"
+                android:layout_span="2"
+                />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:paddingLeft="15px"
+            android:paddingTop="15px"
+            android:paddingRight="50px"
+            android:paddingBottom="0px" >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/user_phone"
+                android:layout_span="1"
+                android:textColor="#000"
+                android:textSize="45px"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_span="1"
+                android:text="@string/asterix" />
+            <EditText
+                android:id="@+id/user_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="phone"
+                android:hint="@string/user_phone"
+                android:text="06"
+                android:layout_span="2"
+                />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:paddingLeft="15px"
+            android:paddingTop="15px"
+            android:paddingRight="50px"
+            android:paddingBottom="0px"
+            android:textColor="#000"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/user_mdp"
+                android:layout_span="1"
+                android:textColor="#000"
+                android:textSize="45px"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_span="1"
+                android:text="@string/asterix" />
+            <EditText
+                android:id="@+id/user_pass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:hint="@string/pass"
+                android:layout_span="2"
+                />
+        </TableRow>
+
+
+    </TableLayout>
+
+
+
+    <Button
+        android:id="@+id/valider_button"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_500"
+        android:text="@string/valider_button"
+        android:layout_marginTop="100px"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>

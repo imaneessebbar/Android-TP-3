@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">TP 3 - Exercice 2 </string>
+    <string name="valider_button">Soumettre</string>user_name
+    <string name="user_prenom">Prénom</string>
+    <string name="user_phone">Téléphone</string>
+    <string name="user_age">Age</string>
+    <string name="user_mdp">Mot de passe</string>
+    <string name="inf">Veuillez saisir vos informations</string>
+    <string name="valid">Validation des informations pour   :</string>
+    <string name="erreur">Veuillez remplir tous les champs ! </string>
+    <string name="user_skill">Domaine de compétences</string>
+    <string name="hint"> * : Champ obligatoire! </string>
+    <string name="oui">Oui</string>
+    <string name="non">Non</string>
+    <string name="message">Voulez-vous confirmez vos information?</string>
+    <string name="anuuler">Confirmation annulée</string>
+    <string name="demande">Demande de confirmation</string>
+    <string-array name="skills">
+        <item>Selectionner un domaine</item>
+        <item>domaine 1 </item>
+        <item>domaine 2 </item>
+        <item>domaine 3 </item>
+        <item>domaine 4 </item>
+    </string-array>
+    <string name="asterix">  * </string>
+    <string name="user_entry">Vous avez saisie  :</string>
+    <string name="user_nom"> Nom </string>
+    <string name="ok_button">OK</string>
+    <string name="return_button">Retour</string>
+    <string name="success">Bravo !</string>
+    <string name="pass">*********</string>
+
+</resources>
